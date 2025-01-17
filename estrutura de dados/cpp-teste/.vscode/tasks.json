@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${C:/Users/GrunaLabs02/Documents/VMC/catzs computação/computacao-ifpi-catzs-2024/estrutura de dados/cpp-teste/teste.cpp}",
+                "-o",
+                "${C:/Users/GrunaLabs02/Documents/VMC/catzs computação/computacao-ifpi-catzs-2024/estrutura de dados/cpp-teste}/${teste}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Compilar o código C++ ativo usando g++."
+        }
+    ]
+}
